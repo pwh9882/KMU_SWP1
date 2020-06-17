@@ -1,3 +1,3 @@
-KMU_SWP1
-Woohyeok_Park
-for store Study process
+20203070, Woohyeok_Park (박우혁)
+Software (소프트웨어학부)
+Kookmin Univ.
