@@ -11,7 +11,7 @@ html = """
             <input type="submit" value="submit" />
         </form>
 
-        printing a + b and  a * b 
+        printing a + b and  a * b \n
 
         a + b = %(sum)d <br><br>
         a * b = %(mul)d
