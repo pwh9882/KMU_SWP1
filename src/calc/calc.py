@@ -7,14 +7,13 @@ def application(environ, start_response):
     inputs = parse_qs(environ['QUERY_STRING'])
     a = inputs.get('a', [''])[0]
     b = inputs.get('b', [''])[0]
-
+    sum, mul = 0, 0
     if '' not in [a, b]:
         a, b = int(a), int(b)
-        result = str(a + b) + " and " + str(a * b) + \
-            '<a href="/homework-20203070"> return </a>'
-        response_body = result
-    else:
-        response_body = html
+        sum = a + b
+        mul = a * b
+
+    response_body = (html % {'sum': sum, 'mul': mul}).encode()
 
     response_headers = [
         ('Content-Type', 'text/html'),

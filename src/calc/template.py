@@ -1,5 +1,8 @@
 html = """
 <html>
+    <head>
+        <title>calc from 20203070</title>
+    </head>
     <body>
         made by 20203070 Woohyeok-Park \n
 
@@ -9,6 +12,9 @@ html = """
         </form>
 
         printing a + b and  a * b 
+
+        a + b = %(sum)d <br><br>
+        a * b = %(mul)d
 
     </body>
 </html>
