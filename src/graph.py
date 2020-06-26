@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from template import html
 from cgi import parse_qs
-import matplotlib as matplotlib
+import matplotlib as mpl
 mpl.use('Agg')
 
 
