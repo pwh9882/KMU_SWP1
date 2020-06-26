@@ -1,6 +1,8 @@
-from cgi import parse_qs
-from template import html
 import matplotlib.pyplot as plt
+from template import html
+from cgi import parse_qs
+import matplotlib as matplotlib
+mpl.use('Agg')
 
 
 def application(environ, start_response):
