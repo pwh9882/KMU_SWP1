@@ -2,6 +2,14 @@ html = """
 <html>
     <head>
         <title>calc from 20203070</title>
+        <style>
+            .True {
+                visibility: visible;
+            }
+            .False {
+                visibility: hidden;
+            }
+        </style>
     </head>
     <body>
         made by 20203070 Woohyeok-Park <br><br>
@@ -13,9 +21,11 @@ html = """
 
         printing a + b and  a * b <br><br>
 
+        <div class="%(result)s">
         a + b = %(sum)d <br><br>
         a * b = %(mul)d
-
+        <div>
+        
     </body>
 </html>
 """
